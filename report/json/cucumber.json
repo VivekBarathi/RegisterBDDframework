@@ -1,0 +1,373 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Skip sign in page",
+        "description": "",
+        "id": "login-test-scenario;skip-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21957136800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login page",
+            "match": {
+              "location": "stepDefinitions.userLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14557900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Title of login page is automation demo",
+            "match": {
+              "location": "stepDefinitions.titleofloginpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6318633500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click skip sign in",
+            "match": {
+              "location": "stepDefinitions.skipsignin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test1"
+          },
+          {
+            "line": 4,
+            "name": "@SkipSignin"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Registerion form",
+        "description": "",
+        "id": "login-test-scenario;registerion-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 52600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Register the customer details",
+            "match": {
+              "location": "stepDefinitions.registerpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "the page displays resgister form",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Fill in all the details",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user enters \"Robert\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user enters \"Brownley\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user enters \"a7a, tvs nagar\"",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user enters \"robert@gmail.com\" and \"1236547890\" and \"male\" and \"cricket\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "robert@gmail.com\" and \"1236547890\" and \"male",
+                  "offset": 13
+                },
+                {
+                  "val": "cricket",
+                  "offset": 64
+                }
+              ],
+              "location": "stepDefinitions.firstname_and_lastname(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "user enters \"English\" and selects \"Android\" and select \"India\"",
+            "match": {},
+            "matchedColumns": [
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "select \"India\" from drop down",
+            "match": {},
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "fill in DOB \"1995\" and \"January\" and \"13\"",
+            "match": {},
+            "matchedColumns": [
+              11,
+              12,
+              13
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "user enters \"Black@Panther\"",
+            "match": {},
+            "matchedColumns": [
+              14
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user enters \"Black@Panther\"",
+            "match": {},
+            "matchedColumns": [
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "users clicks \u003cSubmit\u003e button after filling all the above details",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegistrationForm"
+          },
+          {
+            "line": 11,
+            "name": "@test2"
+          },
+          {
+            "line": 1,
+            "name": "@AutomationDemoSite"
+          },
+          {
+            "line": 1,
+            "name": "@TEST"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "SwitchTo validation",
+        "description": "",
+        "id": "login-test-scenario;switchto-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "On Automation demo site web page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "The page has \u003cswitchTo\u003e tab dropdown",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "Click \u003cSwitchTo\u003e drop down and Click \u003cWindows\u003e",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "page redirected to \u003cwindows\u003e page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "Click \u003cOpen new seperate windows\u003e and Click \u003cClick\u003e button to open a new window with some specification",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "New window poped-up",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "Maximize the pop-up window to view the contents clearly",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "Check the title of the pop-up page and validate the same",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "Close the pop-up window page after validating the title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@test3"
+          },
+          {
+            "line": 32,
+            "name": "@SwitchToValidations"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test Scenario",
+    "description": "",
+    "id": "login-test-scenario",
+    "keyword": "Feature",
+    "uri": "cucmbertest1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@TEST"
+      },
+      {
+        "line": 1,
+        "name": "@AutomationDemoSite"
+      }
+    ]
+  }
+]
