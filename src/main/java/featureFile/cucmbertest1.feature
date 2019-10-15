@@ -1,4 +1,5 @@
-@TEST @AutomationDemoSite
+
+@regression @TEST @AutomationDemoSite
 Feature: Login Test Scenario
 
 @test1 @SkipSignin
